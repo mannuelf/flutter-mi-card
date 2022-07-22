@@ -1,0 +1,4 @@
+#Fri Jul 22 05:37:07 CEST 2022
+base.0=/Users/mannuelferreira/workspace/mannuel/mi_card_flutter/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
