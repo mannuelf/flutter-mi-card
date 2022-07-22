@@ -12,9 +12,13 @@ void main() {
               Stack(
                 children: [
                   CircleAvatar(
-                    radius: 50.0,
+                    radius: 100.0,
                     backgroundImage: AssetImage('images/profile-photo.gif'),
                   ),
+                  Text('Mannuel Ferreira', style: TextStyle(
+                    fontSize: 40.0,
+                    fontWeight: FontWeight.bold,
+                  ),),
                 ],
               ),
             ],
