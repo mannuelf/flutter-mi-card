@@ -18,7 +18,7 @@ void main() {
                 style: TextStyle(
                   fontFamily: 'Ubuntu',
                   fontSize: 40.0,
-                  color: Colors.black54,
+                  color: Colors.black87,
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -27,10 +27,48 @@ void main() {
                 style: TextStyle(
                   fontFamily: 'Ubuntu',
                   fontSize: 20.0,
-                  color: Colors.black54,
+                  color: Colors.black87,
                   fontWeight: FontWeight.normal,
                 ),
               ),
+              Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
+                child: Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Row(
+                    children: <Widget>[
+                      Icon(
+                        Icons.cases_rounded,
+                        size: 30.0,
+                      ),
+                      SizedBox(
+                        width: 10.0,
+                      ),
+                      Text('linkedin.com/in/mannuelferreira'),
+                    ],
+                  ),
+                ),
+              ),
+              Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
+                child: Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Row(
+                    children: <Widget>[
+                      Icon(
+                        Icons.public_rounded,
+                        size: 30.0,
+                      ),
+                      SizedBox(
+                        width: 10.0,
+                      ),
+                      Text('www.mannuelferreira.com'),
+                    ],
+                  ),
+                ),
+              )
             ],
           ),
         ),
